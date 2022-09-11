@@ -10,4 +10,8 @@
   <img src="https://img.shields.io/badge/Lombok-%20-blue" width="90"/>
 </p>
 
+
+
+This is training for create a public API where users can request Marvel's heroes data in JSON format.
+
 ### Here will be description soon
