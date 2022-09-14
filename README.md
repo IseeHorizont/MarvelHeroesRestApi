@@ -1,6 +1,6 @@
 <p align="center">
   <img src="marvel.png" width="400" height="300">
-  <h2 align="center"> "Marvel heroes REST API" </h2>
+  <h1 align="center"> "Marvel heroes REST API" </h1>
 </p>
 
 <p align="center">
@@ -12,7 +12,7 @@
 
 
 
-This is training for create a public API where users can request Marvel's heroes data in JSON format.
+<h2>This is my result of training to create a public REST API where users can request Marvel's heroes data in JSON format</h2>
 
 <p align="center">
   <h3 align="center"> Endpoints </h2>
@@ -63,4 +63,31 @@ This is training for create a public API where users can request Marvel's heroes
 }
 ```
 
+<ul>
+  <h3> /api/v1/heroes/ </h3>
+  <li>HTTP Requests Supported: POST</li>
+  <li>Returns: save new hero</li>
+  <li>Request body like:</li>
+</ul>
 
+```json
+{
+  "heroName":"Iron Man",
+  "realName":"Tony Stark",
+  "hometown":"New York",
+  "citizenship":"American","abilities":"Mechanical Engineer, adventurer, inventor, industrialist, founder of the Maria Stark Foundation"
+}
+```
+
+<ul>
+  <h3> /api/v1/heroes/ </h3>
+  <li>HTTP Requests Supported: PUT</li>
+  <li>Returns: update hero's data </li>
+  <li>Request body with json-object</li>
+</ul>
+
+<ul>
+  <h3> /api/v1/heroes/1 </h3>
+  <li>HTTP Requests Supported: DELETE</li>
+  <li>Returns: remove hero by its id </li>
+</ul>
